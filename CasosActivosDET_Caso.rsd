@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DS_deyel</DataSourceReference>
+      <CommandText>SELECT        NO_CASO, CASO, PROMOTOR, RESPONSABLE, ACTIVIDAD, FECHAINICIO, FECHAVTOMAX, FECHAVTOESP, USUEJECUCION, ESTADO, [ULTIMO MENSAJE], DOCUMENT_KEY_MAIN, [AREA RESPONSABLE]
+FROM            CasosActivosDET
+ORDER BY FECHAINICIO</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="NO_CASO">
+        <DataField>NO_CASO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CASO">
+        <DataField>CASO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PROMOTOR">
+        <DataField>PROMOTOR</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="RESPONSABLE">
+        <DataField>RESPONSABLE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ACTIVIDAD">
+        <DataField>ACTIVIDAD</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FECHAINICIO">
+        <DataField>FECHAINICIO</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="FECHAVTOMAX">
+        <DataField>FECHAVTOMAX</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="FECHAVTOESP">
+        <DataField>FECHAVTOESP</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="USUEJECUCION">
+        <DataField>USUEJECUCION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ESTADO">
+        <DataField>ESTADO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ULTIMO_MENSAJE">
+        <DataField>ULTIMO MENSAJE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DOCUMENT_KEY_MAIN">
+        <DataField>DOCUMENT_KEY_MAIN</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="AREA_RESPONSABLE">
+        <DataField>AREA RESPONSABLE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

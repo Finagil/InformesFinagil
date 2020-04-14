@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "InformesFinagil", "InformesFinagil.rptproj", "{410B2A0B-3568-4CCB-B8EF-D387459A3460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{410B2A0B-3568-4CCB-B8EF-D387459A3460}.Debug|Default.ActiveCfg = Debug
+		{410B2A0B-3568-4CCB-B8EF-D387459A3460}.Debug|Default.Build.0 = Debug
+		{410B2A0B-3568-4CCB-B8EF-D387459A3460}.Debug|Default.Deploy.0 = Debug
+		{410B2A0B-3568-4CCB-B8EF-D387459A3460}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{410B2A0B-3568-4CCB-B8EF-D387459A3460}.DebugLocal|Default.Build.0 = DebugLocal
+		{410B2A0B-3568-4CCB-B8EF-D387459A3460}.Release|Default.ActiveCfg = Release
+		{410B2A0B-3568-4CCB-B8EF-D387459A3460}.Release|Default.Build.0 = Release
+		{410B2A0B-3568-4CCB-B8EF-D387459A3460}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85BFF933-7799-4E2F-90CE-B4F6856ED1AE}
+	EndGlobalSection
+EndGlobal
